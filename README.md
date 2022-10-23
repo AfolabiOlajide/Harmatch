@@ -2,7 +2,7 @@
 
 ### Links
 
--   Visit the Website through this link : [https://klaytnwatch.netlify.app/](https://klaytnwatch.netlify.app/)
+-   Visit the Website through this link : [https://harmatch.netlify.app/](https://harmatch.netlify.app/)
 -   Video Demo (Youtube) : [https://youtu.be/o0j5e5fhm9M](https://youtu.be/o0j5e5fhm9M)
 
 # Getting Started with Harmatch
