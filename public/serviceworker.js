@@ -1,4 +1,4 @@
-const CACHE_NAME = "klaytnwatchcache-1";
+const CACHE_NAME = "harmatchcache-1";
 const urlsToCache = [ 'index.html' ];
 // const urlsToCache = [ 'index.html', 'offline.html' ];
 

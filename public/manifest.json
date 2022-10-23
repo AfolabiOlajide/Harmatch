@@ -1,6 +1,6 @@
 {
-  "short_name": "Klaytn Watch",
-  "name": "Klaytn Watch",
+  "short_name": "Harmatch",
+  "name": "Harmatch",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,19 +8,14 @@
       "type": "image/x-icon"
     },
     {
-      "src": "192 BLACK.png",
+      "src": "./apple-touch-icon-180x180.png",
       "type": "image/png",
-      "sizes": "192x192",
+      "sizes": "180x180",
       "purpose": "any maskable"
     },
-    {
-      "src": "512 WHITE.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#544600",
-  "background_color": "#544600"
+  "theme_color": "#0e7490",
+  "background_color": "#0e7490"
 }
