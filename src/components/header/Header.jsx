@@ -4,7 +4,7 @@ import { ToastContainer } from 'react-toastify';
 import { Link } from "react-router-dom";
 import 'react-toastify/dist/ReactToastify.css';
 
-
+import LOGO from "../../assets/logo.png"
 import InfoContext from '../../context/infoContext';
 
 const Header = (props) => {
@@ -36,9 +36,12 @@ const Header = (props) => {
     return (
     <div className=' p-6 border-b-2 bg-slate-300 border-cyan-600 dark:bg-gray-800'>
         <div className="flex justify-evenly items-center">
-            <div className="logo">
+            <div className="logo items-center flex space-x-3">
+                <Link to='/' className='w-12'>
+                    <img src={LOGO} className="w-[100%] " alt="" />
+                </Link>
                 <Link to="/" className='link'>
-                    <span className='text-cyan-800 dark:text-cyan-300 text-4xl'>HARMATCH</span>
+                    <h1 className='text-cyan-800 dark:text-cyan-300 text-4xl'>HARMATCH</h1>
                 </Link>
             </div>
             <div className="hidden items-center md:flex">

@@ -1,4 +1,6 @@
-# Harmony-Covalent Unified Hackathon
+# Harmatch
+
+A Project for the Encode x Harmony x Covalent Hackathon
 
 ### Links
 
@@ -7,7 +9,7 @@
 
 # Getting Started with Harmatch
 
-[Harmatch](https://klaytnwatch.netlify.app/) is a DeFi dashboard that allows users to search their address and view their token holdings and balance, also available is the ability for users to view their NFT holdings and their balance(s) and price if available.
+[Harmatch](https://harmatch.netlify.app/) is a DeFi dashboard that allows users to search their address and view their token holdings and balance, also available is the ability for users to view their NFT holdings and their balance(s) and price if available.
 
 **NOTE:**
 
@@ -17,7 +19,7 @@ Used in this project is a newly featured endPoint to get token balances for an a
 
 ## How to use Harmatch
 
-Paste your 0x.. Address in the Search Bar on the [home page](https://klaytnwatch.netlify.app/), then press Enter or click the search button to Search and your account details will be displayed.
+Paste your 0x.. Address in the Search Bar on the [home page](https://harmatch.netlify.app/), then press Enter or click the search button to Search and your account details will be displayed.
 
 ## Exciting feature
 

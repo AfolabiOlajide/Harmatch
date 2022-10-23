@@ -24,10 +24,10 @@ function App() {
 
 
   return (
-    <main className="app">
+    <main className="app bg-slate-300 dark:bg-gray-800">
       <div className="container">
         <Header onChangeDarkMode={changeDarkModeHandler} />
-        <div className="bg-slate-300 dark:bg-gray-800">
+        <div className="">
           <Routes>
               <Route path="/" element={<Home isDark={isDark} />}/>
               <Route path="/address" element={<AddressInfo />}/>
