@@ -22,7 +22,7 @@ const InfoContextProvider = (props) => {
 
     const fetchUserData = async(searchAddress) => {
         try {
-            const response = await toast.promise(fetch(`https://api.covalenthq.com/v1/8217/address/${searchAddress}/balances_v2/?quote-currency=USD&format=JSON&nft=true&no-nft-fetch=false&key=${API_KEY}`), {
+            const response = await toast.promise(fetch(`https://api.covalenthq.com/v1/1666600000/address/${searchAddress}/balances_v2/?quote-currency=USD&format=JSON&nft=true&no-nft-fetch=false&key=${API_KEY}`), {
                 pending: "Getting Information"
             });
             const responseData = await response.json();

@@ -1,4 +1,4 @@
-# Klaytn-Covalent Unified Hackathon
+# Harmony-Covalent Unified Hackathon
 
 ### Links
 

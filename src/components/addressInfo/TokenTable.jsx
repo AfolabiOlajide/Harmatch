@@ -1,6 +1,5 @@
 import React, { useContext } from 'react'
 
-import "./TokenTable.css"
 import InfoContext from '../../context/infoContext';
 
 const TokenTable = () => {
@@ -13,24 +12,26 @@ const TokenTable = () => {
     }
 
     return (
-        <table>
-            <thead>
-                <tr>
-                    <th>Symbol</th>
-                    <th>Balance</th>
-                    <th>Value</th>
-                </tr>
-            </thead>
-            <tbody>
+        <>
+        <div className="">
+            <div className="item-list">
                 {ctx.addressInfo.cryptocurrencyData.map( data => (
-                    <tr key={data.contract_name}>
-                        <td className='token-symbol'> <img src={data.logo_url} alt="" /> {data.contract_ticker_symbol}</td>
-                        <td className='warning bold'>{separator((data.balance / 1000000000000000000).toFixed(5))}</td>
-                        <td className='success bold'>${separator(data.quote.toFixed(2))}</td>
-                    </tr>
+                    <div className="item  p-6 rounded-lg flex flex-col space-y-6 items-center justify-between mb-8 bg-gray-900 text-white dark:bg-cyan-800 md:flex-row md:space-y-0">
+                        <div className="token-info flex space-x-3 items-center">
+                            <img src={data.logo_url} className="w-[10%]" alt="" />
+                            <h3 className='text-xl md:text-4xl'>{data.contract_ticker_symbol}</h3>
+                        </div>
+                        <div className="token-balance flex justify-between space-x-12">
+                            <div className="balance text-xl">Balance: <span className='text-red-400'>{separator((data.balance / 1000000000000000000).toFixed(5))}</span></div>
+                            <div className="value text-xl">Value: <span className='text-green-400'>${separator(data.quote.toFixed(2))}</span></div>
+                        </div>
+                    </div>
                 ) )}
-            </tbody>
-        </table>
+                
+            </div>
+        </div>
+        </>
+        
     )
 }
 
