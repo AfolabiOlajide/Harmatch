@@ -5,7 +5,7 @@ A Project for the Encode x Harmony x Covalent Hackathon
 ### Links
 
 -   Visit the Website through this link : [https://harmatch.netlify.app/](https://harmatch.netlify.app/)
--   Video Demo (Youtube) : [https://youtu.be/o0j5e5fhm9M](https://youtu.be/o0j5e5fhm9M)
+-   Video Demo (Youtube) : [https://youtu.be/weh7nVW76JI](https://youtu.be/weh7nVW76JI)
 
 # Getting Started with Harmatch
 
