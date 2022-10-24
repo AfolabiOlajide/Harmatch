@@ -25,7 +25,7 @@ function App() {
 
   return (
     <main className="app bg-slate-300 dark:bg-gray-800">
-      <div className="container">
+      <div className="contain">
         <Header onChangeDarkMode={changeDarkModeHandler} />
         <div className="">
           <Routes>

@@ -35,10 +35,10 @@ h1, h2, h3, h4, h5, h6{
   font-family: 'Roboto', sans-serif; 
 }
 
-.container{
+.contain{
   position: relative;
   z-index: 2rem;
-  width: 100%;
+  width: 100vw;
   min-height: 100vh;
   overflow: hidden;
 }
