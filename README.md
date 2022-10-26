@@ -1,15 +1,23 @@
 # Harmatch
 
+<img src="./src/assets/snapshot-homepage.png" />
+
 A Project for the Encode x Harmony x Covalent Hackathon
 
-### Links
+### Useful Links
 
 -   Visit the Website through this link : [https://harmatch.netlify.app/](https://harmatch.netlify.app/)
--   Video Demo (Youtube) : [https://youtu.be/weh7nVW76JI](https://youtu.be/weh7nVW76JI)
+-   Demo Video (Youtube) : [https://youtu.be/weh7nVW76JI](https://youtu.be/weh7nVW76JI)
 
-# Getting Started with Harmatch
+## Getting Started with Harmatch
 
 [Harmatch](https://harmatch.netlify.app/) is a DeFi dashboard that allows users to search their address and view their token holdings and balance, also available is the ability for users to view their NFT holdings and their balance(s) and price if available.
+
+## How to use Harmatch
+
+<img src="./src/assets/snapshot-searched.png" />
+
+All you need to do is paste your 0x.. Address in the Search Bar on the [home page](https://harmatch.netlify.app/), then press Enter or click the search button to Search and your account details will be displayed, If you do not have any token or NFT nothing will be displayed.
 
 **NOTE:**
 
@@ -17,23 +25,27 @@ All data displayed are gotten from [Covalent](https://www.covalenthq.com/docs/) 
 
 Used in this project is a newly featured endPoint to get token balances for an address and its available in [Covalent Class A Endpoint](https://www.covalenthq.com/docs/api/#/0/Get%20token%20balances%20for%20address/USD/1).
 
-## How to use Harmatch
-
-Paste your 0x.. Address in the Search Bar on the [home page](https://harmatch.netlify.app/), then press Enter or click the search button to Search and your account details will be displayed.
-
-## Exciting feature
-
-We had users in mind when building this project so using the Progressive Web App (PWA) feature available on the browser, users can now install Klaytn Watch on their devices as a standalone application and there will be no need to navigate to the browser everytime to use Klaytn Watch.
-
-### How to install on Mobile
-
-Automatically when you visit Harmatch on your mobile device you should see a pop up at the bottom of your screen asking you to add Harmatch to your Home Screen. If this is not the case you can navigate to the three dots at the top right of your browser, when you click it you will see Install, click on Install to download Klaytn watch as an application on your device.
-
-### How to install on Desktop
-
-If you are on Harmatch's home page, at the far right in your search bar, you will see an icon indicating for you to install it on your desktop, click on the icon and Klaytn Watch will be available on your Desktop for use.
+## Do you wish to have the code?
+You can clone the repo by running this command
+```
+git clone https://github.com/AfolabiOlajide/Harmatch.git
+```
+after which you need to install the dependencies by running this command
+```
+npm i
+```
+or
+```
+npm install
+```
+before you install make sure you have a stable connection, when it is done installing you can now run this command to view the project live on your system
+```
+npm start
+```
 
 ### Tech Stack
 
-- React
-- Tailwind CSS
+
+<img src="https://img.shields.io/badge/React-black?style=for-the-badge&logo=react&logoColor=#5ED4F3">
+
+<img src="https://img.shields.io/badge/Tailwind-black?style=for-the-badge&logo=tailwindcss&logoColor=#5ED4F3">
